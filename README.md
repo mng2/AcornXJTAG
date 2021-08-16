@@ -1,5 +1,6 @@
 # AcornXJTAG
 This is a small PCB for connecting the Acorn JTAG to a Xilinx pod. Tested with the first-generation Xilinx pod.
+![blurry PCB photo](pcb.jpg)
 
 ## Bill of Materials
 1. Pico-EZmate 6-pin, Molex 0781715006, Digi-Key WM5408CT-ND
@@ -19,3 +20,6 @@ that the Pico-EZmate assemblies are wired in a way that flips the connections...
 
 ## License
 CERN OHL Permissive v2
+
+![in use with Acorn and Xilinx pod](action.jpg)
+
