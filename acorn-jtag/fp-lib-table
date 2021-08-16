@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name acorn-jtag.archive)(type KiCad)(uri ${KIPRJMOD}/acorn-jtag.archive.pretty)(options "")(descr ""))
+)
