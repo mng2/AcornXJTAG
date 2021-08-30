@@ -1,5 +1,5 @@
 # AcornXJTAG
-This is a small PCB for connecting the Acorn JTAG to a Xilinx pod. Tested with the first-generation Xilinx USB pod.
+This is a small PCB for connecting the SQRL Acorn JTAG to a Xilinx pod. Tested with the first-generation Xilinx Platform Cable USB, manufactured via OSHPark.
 
 ![blurry PCB photo](pcb.jpg)
 
@@ -12,12 +12,14 @@ This is a small PCB for connecting the Acorn JTAG to a Xilinx pod. Tested with t
 * The Pico-EZmate connector is not really designed for hand soldering, 
 but it doesn't really make sense to bother with a solder stencil for this board either.
 The ones I soldered by hand, are pushed over slightly to give the soldering iron some room to work,
-so the anchors are not accessible. I was too lazy to modify the footprint; 
-just be gentle with it or add some glue.
+so the anchors are not accessible. I was too lazy to modify the footprint, which is an option. 
+Otherwise I recommend adding glue or epoxy.
 * The 2mm connector that comes with the OEM Xilinx flying-wire adapter is pretty tall.
-The one specified here is widely available and seems to work with my Xilinx pod, but of course YMMV.
+I tried to find a similarly dimensioned connector but was unable to identify one that is commonly stocked.
+The one specified here is widely available and seems to make good enough contact
+with my Xilinx pod, but of course YMMV.
 * This is revB since apparently I made revA under covid brain and forgot
-that the Pico-EZmate assemblies are wired in a way that flips the connections...
+that the Pico-EZmate cable assemblies are wired in a way that flips the connections...
 
 ## License
 CERN OHL Permissive v2
